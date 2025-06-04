@@ -4,9 +4,9 @@ This simple project demonstrates a web-based chatbot using Google's Gemini API.
 
 ## Setup
 
-1. Install dependencies:
+1. Install dependencies from the provided `req.txt` file:
    ```bash
-   pip install flask google-generativeai python-dotenv
+   pip install -r req.txt
    ```
 2. Create a `.env` file with your API key. This file is already listed in
    `.gitignore` so the key remains private:
